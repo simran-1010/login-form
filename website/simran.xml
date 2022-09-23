@@ -1,0 +1,8 @@
+<?XML version ="1.0" encoding = "UTF -8 "?>
+<food>
+     <fruits>
+          <name> Apple </name>
+          <color> red </color>
+          <taste> sweet</sweet>
+    </fruits>
+</food>    

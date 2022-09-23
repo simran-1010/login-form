@@ -1,0 +1,57 @@
+* {
+    background-color: aqua;
+}
+
+#p1 {
+    background-color:yellow;
+    color:red;
+    font-size: 1.5rem;
+    font-family: 'Courier New',Courier,monospace;
+    font-weight: bold;
+    font-size: oblique;
+    text-align: center;
+    justify-content: center;
+    text-decoration: line-through;
+
+}
+
+#p2 {
+    background-color: rgb(100, 100, 185);
+    color: red;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 2px pink dotted;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: box-shadow 1s ease-in-out, background-color 1sec ;
+    cursor: pointer;
+    position: fixed;
+    float: left;
+    
+}
+
+#p2:hover{
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+
+#p2:active {
+    background-color: red;
+}
+
+#p3 {
+    background-color: green;
+    color: red;
+    margin: 10px;
+}
+
+p {
+    background-color: yellow;
+    color: red;
+}
+
+button {
+    text-align: center;
+    background-color: aqua;
+    color: black;
+}

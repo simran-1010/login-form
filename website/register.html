@@ -1,0 +1,138 @@
+<!Doctype html>
+<html>
+    <head><title>Registration page</title></head>
+    <body style ="background-image:url(p.jpg);"><br>
+        <img src="Niet template.png" width="250" height="150;">
+        <pre><h1>                      <mark>NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY ,GREATER  NOIDA </mark></h1></pre>
+        <center> <h1><b><mark  style="background-color: rgba(165, 97, 153, 0.699);">Registration Form</mark></b></h1> </center><br><hr>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php"> 
+        <fieldset style = "width: 700px; margin:  0px auto;">
+            <legend><h1>Enter Details:</h1></legend>
+            <label for="text"><h2>First Name:</h2></label>
+            <input type="text" value="" name="TEXT" id="text" placeholder="F-NAME"  required > <br>
+            <label for="text"><h2>Mid Name:</h2></label>
+            <input type="text" value="" name="TEXT" id="text" placeholder="MID_NAME" > <br>
+            <label for="text"><h2>Last Name:</label></h2></label>
+            <input type="text" value="" name="TEXT" id="text" placeholder="L_NAME"> <br>
+            <label for="number"><h2>Roll no:</h2></label>
+                <input type="number" value="text" name="text" id="number" placeholder="rollno"  required > 
+                <label for="number"><h2>ERP ID:</h2></label>
+                <input type="number" value="text" name="text" id="number" placeholder="erp_id"  required > 
+                <label for="number"><h2>Date:</h2></label>
+                <input type="date" name="dat" id="dat" placeholder="date of birth"  required ><br><br>
+                <label for="number"><h2>Email:</h2></label>
+                <input type="email" name="em" id="em" placeholder="email"  required ><br><br>
+                <label for="number"><h2>Number:</h2></label>
+                <input type="number" name="num" id="num" min="10" max="20" steo="0.5" placeholder="number in range"><br><br>
+                <label for="number"><h2>Range:</h2></label>
+                0<input type="range" name="ran" id="ran" min="0" max="100" placeholder="range">100<br><br>
+                <label for="number"><h2>Seach:</h2></label>
+                <input type="search" name="search" id="search" placeholder="serach">
+            <label> <h2> 
+                Course :  </h2>
+                </label>   
+                <select>  
+                <option value="Course"><h2>Course:</h2></option>  
+                <option value="BCA">BCA</option>  
+                <option value="BBA">BBA</option>  
+                <option value="B.Tech">B.Tech</option>  
+                <option value="MBA">MBA</option>  
+                <option value="MCA">MCA</option>  
+                <option value="M.Tech">M.Tech</option>  
+                </select>  
+                  
+                <br>  
+                <br>  
+                <label> <h2> 
+                    <label> <h2> 
+                        Year  :  </h2>
+                        </label>   
+                        <select>  
+                        <option value="Course"><h2>Year:</h2></option>  
+                        <option value="BCA">1st </option>  
+                        <option value="BBA">2nd</option>  
+                        <option value="B.Tech">3rd</option>
+                        <option value="B.Tech">4th</option>    
+                        </select> <br><br>
+                    Branch  :  </h2>
+                    </label>   
+                    <select>  
+                    <option value="Course"><h2>Branch:</h2></option>  
+                    <option value="BCA">CSE </option>  
+                    <option value="BBA">IT</option>  
+                    <option value="B.Tech">ECE</option>  
+                    <option value="MBA">BBA</option>  
+                    <option value="MCA">EEE</option>  
+                    <option value="M.Tech">AI/ML</option> 
+                    <option value="M.Tech">MECHANICAL</option>
+                    <option value="M.Tech">BCA</option>
+                    <option value="M.Tech">MCA</option> 
+                    <option value="M.Tech">BIOTECH</option>
+                    </select>  
+                    <label> <h2> 
+                        Section  :  </h2>
+                        </label>   
+                        <select>  
+                        <option value="Course"><h2>Section:</h2></option>  
+                        <option value="BCA">A </option>  
+                        <option value="BBA">B</option>  
+                        <option value="B.Tech">C</option>
+                        <option value="B.Tech">D</option>    
+                        </select>
+                <label>   
+            <label> <h2> 
+             
+                Gender :  </h2>
+                </label><br>  
+                <input type="radio" name="male"/> Male <br>  
+                <input type="radio" name="female"/> Female <br>  
+                <input type="radio" name="other"/> Other  
+                <br>  
+                <br>  
+                  
+                <label>  <h2>
+                Phone :  
+                </label>  </h2>
+                <input type="text" name="country code"  value="+91" size="2"/>   
+                <input type="text" name="phone" size="10"/ placeholder="phone no"  required > <br> <br>  
+                <h2>Address: </h2>  
+                <br>  
+                <textarea cols="80" rows="5" value="address" placeholder="address"  required >  
+                </textarea> 
+                <br> <br>  
+                <h2>Email:  </h2>
+                <input type="email" id="email" name="email"/ placeholder="email"  required > <br><br><br>    
+                <br> <br>
+                <label> <h2> 
+                    Skill :  </h2>
+                <label for="remember me">web tech</label>
+                <input type="checkbox" name="check" id="remember me"  required > <br><br>
+                <label for="remember me">java</label>
+                <input type="checkbox" name="check" id="remember me"  required > <br><br>
+                <label for="remember me">python</label>
+                <input type="checkbox" name="check" id="remember me"  required > <br><br>
+                <h2>Skillset: </h2>  
+                <br>  
+                <textarea cols="80" rows="5" value="address" placeholder="skill hands on"  required >  
+                </textarea> 
+                <br> <br> 
+                <label for="Countury"><h2>Company Applied:</h2></label>
+                <input list="Countury" name="place" id="tovisit"  required >
+                <datalist id="Countury">
+                    <option value="Amazon"> Amazon</option>
+                    <option value="Infosys"> Infosys</option>
+                    <option value="Tcs"> Tcs</option>
+                    <option value="Microsoft"> Microsoft</option>
+                    <option value="USG"> USG</option>
+                    <option value="wipro"> wipro</option>
+                    <option value="walmat"> walmat</option>
+                </datalist>
+                <output></output>
+            </form> <br><br>
+            <button type="submit" class="registerbtn"><h3><a href="https://www.naukri.com/it-fresher-jobs">Register</a></h3></button> 
+        </fieldset>
+    </div>
+        </form>
+    </body>
+</html>

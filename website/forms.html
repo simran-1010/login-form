@@ -1,0 +1,56 @@
+<!Doctype html>
+<html>
+    <head>
+         <title>html forms</title>
+    </head>
+        <body>
+            <form oninput="c.value=parseInt(a.value)+parseInt(b.value)">
+                A=
+                <input type="number" name="a" id="a" step="0.5">
+               + B=
+                <input type="number" name="b" id="b" step="1">
+                <output name="x" id="x" for="a b"></output> <br>
+                <label for="text"><h3>Name of Student:</h3></label>
+                <input type="text" value="Simran" name="TEXT" id="text"> <br>
+                <label for="college">college</label>
+                <input type="radio" name="college" id="college"> <br>
+                <label for="school">school</label>
+                <input type="radio" name="college" id="school"> <br>
+                <label for="mussorie">mussorie</label>
+                <input type="checkbox" name="check" id="mussorie"> <br>
+                <label for="jammu">jammu</label>
+                <input type="checkbox" name="check" id="jammu"> <br>
+                <input type="button" value="Submit" onclick="">
+                <select name="place" id="place visited" multiple>
+                    <option value="jammu"> jammu</option>
+                    <option value="banaras"> mussorie</option>
+                    <option value="delhi" selected> delhi</option>
+                </select>
+                <textarea name="textarea" id="textarea" cols="5" rows="10">Hello ,I am Simran Gupta ,CSE D, Roll No - 2001330130159,College -Niet , want to share information.</textarea>
+                <button type="button" onclick="">My button</button> <br><br>
+                <label for="Countury">Countury to visit:</label>
+                <input list="Countury" name="place" id="tovisit">
+                <datalist id="Countury">
+                    <option value="india"> India</option>
+                    <option value="usa"> usa</option>
+                    <option value="uk"> uk</option>
+                    <option value="europe"> europe</option>
+                    <option value="russia"> russia</option>
+                    <option value="asia"> asia</option>
+                    <option value="africa"> africa</option>
+                </datalist>
+                <output></output>
+            </form>
+            <fieldset style = "width: 500px; margin:  0px auto;"> 
+                <input type="checkbox" name="check" id="remember me"> <br>
+                <legend><h3>Enter Another Name</h3></legend>
+                <label for="text">First Student:</label>
+                <input type="text" value="Simran" name="TEXT" id="text"> <br>
+                <label for="text">Middle Student:</label>
+                <input type="text" value="Aman" name="TEXT" id="text"> <br>
+                <label for="text">Last Student:</label>
+                <input type="text" value="Nirbhaya" name="TEXT" id="text"> <br>
+
+            </fieldset>
+        </body>
+</html>        
